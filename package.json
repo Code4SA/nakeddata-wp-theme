@@ -1,0 +1,28 @@
+{
+  "name": "nakeddata",
+  "version": "0.0.1",
+  "description": "Naked Data Wordpress theme",
+  "main": "test.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code4SA/nakeddata-wp-theme.git"
+  },
+  "author": "Jason Norwood-Young <jason@10layer.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Code4SA/nakeddata-wp-theme/issues"
+  },
+  "homepage": "https://github.com/Code4SA/nakeddata-wp-theme#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ssh": "^0.6.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.8"
+  }
+}
