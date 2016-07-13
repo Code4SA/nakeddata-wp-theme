@@ -13,20 +13,21 @@ var fs = require("fs");
 
 // var jsInputDir = 'assets/js/**/*.js';
 // var jsInputFile = "assets/js/" + projectName + ".js";
-var buildDir = "./";
+// var buildDir = "./";
 
 var lessInputDir = 'less/**/*.less';
 var lessInputFile = "less/" + projectName + ".less";
 
-var cssOutputDir = "css/";
-var jsOutputDir = "js/";
+var cssOutputDir = "./";
+var cssOutputFile = "./style.css";
+// var jsOutputDir = "js/";
 
 gulp.task('css', function() {
 	return gulp.src([lessInputFile])
 		.pipe(less())
 		.pipe(prefix({ cascade: true }))
-		.pipe(rename(projectName + ".css"))
-		.pipe(gulp.dest(buildDir + cssOutputDir));
+		.pipe(rename(cssOutputDir))
+		.pipe(gulp.dest(cssOutputFile));
 });
 
 gulp.task('watch', function() {

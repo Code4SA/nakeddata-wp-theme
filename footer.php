@@ -9,9 +9,9 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
-
+	</div> <!-- Row -->
 	</div><!-- .site-content -->
-
+	
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php
