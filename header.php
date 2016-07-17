@@ -14,10 +14,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<!--[if lt IE 9]>
-	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
-	<![endif]-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<?php wp_head(); ?>
 </head>
 
@@ -29,8 +26,8 @@
 		</div>
 		<div id="navbar" class="navbar">
 			<div class="container border-top">
-				<ul class="nav navbar-nav">
-					<li><a href="/category/dont-miss">#Don'tMiss</a></li>
+				<ul class="nav navbar-nav hidden-xs">
+					<li><a href="/category/dont-miss">#Don't Miss</a></li>
 					<li><a href="/category/nerds">#Nerds</a></li>
 					<li><a href="/category/stack">#Stack</a></li>
 					<li><a href="/category/community">#Community</a></li>

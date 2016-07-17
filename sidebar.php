@@ -1,40 +1,21 @@
 <?php
-/**
- * The sidebar containing the main widget area
- *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
- */
 
 if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar( 'sidebar-1' )  ) : ?>
 	<div id="secondary" class="secondary">
+		<?php get_search_form(); ?>
+		<?php
+			include(get_template_directory() . "/snippets/mailchimp-sidebar.php");
+			$catquery = new WP_Query( 'category_name=sidebar&posts_per_page=10' );
+			while($catquery->have_posts()) : $catquery->the_post();
+		?>
+		<div class="sidebar-feature border-bottom">
+			<h5><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h5>
+			<div>
+				<?php the_excerpt(); ?>
+			</div>
+		</div>
 
-		<?php if ( has_nav_menu( 'primary' ) ) : ?>
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<?php
-					// Primary navigation menu.
-					wp_nav_menu( array(
-						'menu_class'     => 'nav-menu',
-						'theme_location' => 'primary',
-					) );
-				?>
-			</nav><!-- .main-navigation -->
-		<?php endif; ?>
-
-		<?php if ( has_nav_menu( 'social' ) ) : ?>
-			<nav id="social-navigation" class="social-navigation" role="navigation">
-				<?php
-					// Social links navigation menu.
-					wp_nav_menu( array(
-						'theme_location' => 'social',
-						'depth'          => 1,
-						'link_before'    => '<span class="screen-reader-text">',
-						'link_after'     => '</span>',
-					) );
-				?>
-			</nav><!-- .social-navigation -->
-		<?php endif; ?>
+		<?php endwhile; ?>
 
 		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 			<div id="widget-area" class="widget-area" role="complementary">
