@@ -10,7 +10,7 @@ get_header(); ?>
 <div class="row">
 	<div id="fp_academy" class="col-sm-6">
 		<?php
-			$catquery = new WP_Query( 'category_name=academy&posts_per_page=1' );
+			$catquery = new WP_Query( 'category_name=top-story&posts_per_page=1' );
 			while($catquery->have_posts()) : $catquery->the_post();
 		?>
 		<div class="post first-post">
@@ -21,7 +21,7 @@ get_header(); ?>
 		<?php endwhile; ?>
 
 		<?php
-			$catquery = new WP_Query( 'category_name=academy&posts_per_page=5&offset=1' );
+			$catquery = new WP_Query( 'category_name=top-story&posts_per_page=5&offset=1' );
 			while($catquery->have_posts()) : $catquery->the_post();
 		?>
 		<div class="post">
@@ -38,7 +38,7 @@ get_header(); ?>
 	</div>
 	<div id="fp_briefs" class="col-sm-2 border-left border-right">
 		<?php
-		$catquery = new WP_Query( 'category_name=naked-data&posts_per_page=20' );
+		$catquery = new WP_Query( 'category_name=brief&posts_per_page=20' );
 		while($catquery->have_posts()) : $catquery->the_post();
 		?>
 		<div class="brief border-bottom"><h5><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h5></div>
