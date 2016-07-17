@@ -24,26 +24,21 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding container">
-			<?php
-				twentyfifteen_the_custom_logo();
-				if ( is_front_page() && is_home() ) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php else : ?>
-					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php endif;
-				$description = get_bloginfo( 'description', 'display' );
-				if ( $description || is_customize_preview() ) : ?>
-					<p class="site-description"><?php echo $description; ?></p>
-				<?php endif;
-			?>
-		</div><!-- .site-branding -->
+		<div class="container">
+			<a href="<?= esc_url( home_url( '/' ) ) ?>"><img id="logo" src="<?= get_template_directory_uri() ?>/images/logo.png" alt="NakedData"></a>
+		</div>
+		<div id="navbar" class="navbar">
+			<div class="container border-top">
+				<ul class="nav navbar-nav">
+					<li><a href="/category/dontmiss">#Don'tMiss</a></li>
+					<li><a href="/category/nerds">#Nerds</a></li>
+					<li><a href="/category/stack">#Stack</a></li>
+					<li><a href="/category/community">#Community</a></li>
+					<li><a href="/category/finally">#Finally</a></li>
+				</ul>
+			</div>
+		</div>
 	</header><!-- .site-header -->
-	<div class="row">
-		<div id="sidebar" class="sidebar col-sm-4">
-			
-
-			<?php get_sidebar(); ?>
-		</div><!-- .sidebar -->
-
-		<div id="content" class="site-content col-sm-8">
+	<div class="container">
+		<div class="row">
+			<div id="content" class="site-content col-sm-12">

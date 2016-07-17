@@ -6690,3 +6690,45 @@ button.close {
     display: none !important;
   }
 }
+body {
+  font-family: "Robotica";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav > li {
+  font-family: "Futura";
+}
+header {
+  margin-top: 50px;
+}
+a {
+  color: #444;
+}
+a:hover,
+a:focus {
+  color: #444;
+}
+.border-left {
+  border-left: 1px #CCC solid;
+}
+.border-right {
+  border-right: 1px #CCC solid;
+}
+.border-bottom {
+  border-bottom: 1px #CCC solid;
+}
+.border-top {
+  border-top: 1px #CCC solid;
+}
+#logo {
+  height: 50px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: underline;
+  background-color: #fff;
+}

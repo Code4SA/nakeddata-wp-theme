@@ -227,7 +227,7 @@ endif;
  * @since Twenty Fifteen 1.1
  */
 function twentyfifteen_javascript_detection() {
-	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
+	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js');})(document.documentElement);</script>\n";
 }
 add_action( 'wp_head', 'twentyfifteen_javascript_detection', 0 );
 
@@ -367,3 +367,5 @@ require get_template_directory() . '/inc/template-tags.php';
  * @since Twenty Fifteen 1.0
  */
 require get_template_directory() . '/inc/customizer.php';
+
+require get_template_directory() . '/inc/nakeddata.php';
