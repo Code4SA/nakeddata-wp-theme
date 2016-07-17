@@ -17,6 +17,7 @@ This theme is based on Wordpress TwentyFifteen, which is licensed under the GPL.
 
 body {
 	font-family: "Robotica";
+	background-color: #FFF;
 }
 
 h1, h2, h3, h4, h5, h6, .nav > li {
@@ -27,12 +28,47 @@ header {
 	margin-top: 50px;
 }
 
+footer {
+	background-color: #444;
+	color: #FFF;
+	padding: 40px 0px;
+	a, a:hover, a:focus {
+		color: #CCC;
+		text-decoration: underline;
+	}
+	ul {
+		padding: 0px;
+		li {
+			display: block;
+		}
+	}
+}
+
 a {
 	color: #444;
 }
 
 a:hover, a:focus {
 	color: #444;
+}
+
+.same-height-container {
+	display: table;
+}
+
+.same-height-row {
+	display: table-row;
+}
+
+.same-height-col {
+	display: table-cell;
+	float: none;
+	vertical-align: top;
+}
+
+#page {
+	padding-bottom: 40px;
+
 }
 
 @border: 1px #CCC solid;
@@ -63,4 +99,14 @@ a:hover, a:focus {
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: underline;
     background-color: #fff;
+}
+
+.entry-footer {
+	border-top: @border;
+	.posted-on, .byline, .cat-links {
+		display: block;
+	}
+	.updated {
+		display: none;
+	}
 }

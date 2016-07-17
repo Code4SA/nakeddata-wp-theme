@@ -30,7 +30,7 @@
 		<div id="navbar" class="navbar">
 			<div class="container border-top">
 				<ul class="nav navbar-nav">
-					<li><a href="/category/dontmiss">#Don'tMiss</a></li>
+					<li><a href="/category/dont-miss">#Don'tMiss</a></li>
 					<li><a href="/category/nerds">#Nerds</a></li>
 					<li><a href="/category/stack">#Stack</a></li>
 					<li><a href="/category/community">#Community</a></li>

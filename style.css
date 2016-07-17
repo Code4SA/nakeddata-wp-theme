@@ -6692,6 +6692,7 @@ button.close {
 }
 body {
   font-family: "Robotica";
+  background-color: #FFF;
 }
 h1,
 h2,
@@ -6705,12 +6706,43 @@ h6,
 header {
   margin-top: 50px;
 }
+footer {
+  background-color: #444;
+  color: #FFF;
+  padding: 40px 0px;
+}
+footer a,
+footer a:hover,
+footer a:focus {
+  color: #CCC;
+  text-decoration: underline;
+}
+footer ul {
+  padding: 0px;
+}
+footer ul li {
+  display: block;
+}
 a {
   color: #444;
 }
 a:hover,
 a:focus {
   color: #444;
+}
+.same-height-container {
+  display: table;
+}
+.same-height-row {
+  display: table-row;
+}
+.same-height-col {
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+}
+#page {
+  padding-bottom: 40px;
 }
 .border-left {
   border-left: 1px #CCC solid;
@@ -6731,4 +6763,15 @@ a:focus {
 .nav > li > a:focus {
   text-decoration: underline;
   background-color: #fff;
+}
+.entry-footer {
+  border-top: 1px #CCC solid;
+}
+.entry-footer .posted-on,
+.entry-footer .byline,
+.entry-footer .cat-links {
+  display: block;
+}
+.entry-footer .updated {
+  display: none;
 }
