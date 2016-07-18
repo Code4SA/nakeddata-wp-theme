@@ -46,6 +46,6 @@
 	
 </footer>
 <?php wp_footer(); ?>
-
+<?php include_once(get_template_directory() . "/snippets/analytics.php") ?>
 </body>
 </html>
