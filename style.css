@@ -6747,11 +6747,11 @@ footer ul li {
   display: block;
 }
 a {
-  color: #ff4081;
+  color: #337ab7;
 }
 a:hover,
 a:focus {
-  color: #ff4081;
+  color: #337ab7;
 }
 .same-height-container {
   display: table;
