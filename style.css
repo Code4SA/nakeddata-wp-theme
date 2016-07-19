@@ -6703,6 +6703,29 @@ h6,
 .nav > li {
   font-family: "Futura";
 }
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.nav > li a,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.nav > li a:hover,
+h1 a:focus,
+h2 a:focus,
+h3 a:focus,
+h4 a:focus,
+h5 a:focus,
+h6 a:focus,
+.nav > li a:focus {
+  color: #444;
+}
 header {
   margin-top: 50px;
 }
@@ -6724,11 +6747,11 @@ footer ul li {
   display: block;
 }
 a {
-  color: #444;
+  color: #ff4081;
 }
 a:hover,
 a:focus {
-  color: #444;
+  color: #ff4081;
 }
 .same-height-container {
   display: table;
