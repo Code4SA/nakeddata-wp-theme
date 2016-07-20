@@ -189,15 +189,13 @@ function twentyfifteen_post_thumbnail() {
 	?>
 
 	<div class="post-thumbnail">
-		<?php the_post_thumbnail(); ?>
+		<img src="<?= the_post_thumbnail_url(); ?>" width="100%" height="auto" alt="<?= get_the_title() ?>">
 	</div><!-- .post-thumbnail -->
 
 	<?php else : ?>
 
 	<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true">
-		<?php
-			the_post_thumbnail( 'post-thumbnail', array( 'alt' => get_the_title() ) );
-		?>
+		<img src="<?= the_post_thumbnail_url(); ?>" width="100%" height="auto" alt="<?= get_the_title() ?>">
 	</a>
 
 	<?php endif; // End is_singular()
