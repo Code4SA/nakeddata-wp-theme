@@ -29,10 +29,10 @@
 			<div class="container border-top">
 				<ul class="nav navbar-nav hidden-xs">
 					<li><a href="/category/dont-miss">#Don't Miss</a></li>
-					<li><a href="/category/nerds">#Nerds</a></li>
-					<li><a href="/category/stack">#Stack</a></li>
-					<li><a href="/category/community">#Community</a></li>
-					<li><a href="/category/finally">#Finally</a></li>
+					<li><a href="/category/academy">#Academy</a></li>
+					<li><a href="/category/brief">#In Brief</a></li>
+					<!-- <li><a href="/category/community">#Community</a></li>
+					<li><a href="/category/finally">#Finally</a></li> -->
 				</ul>
 				<ul class="nav navbar-nav navbar-right hidden-xs">
 					<li><a href="https://facebook.com/nak3ddata"><i class="fa fa-facebook"></i></a></li>
