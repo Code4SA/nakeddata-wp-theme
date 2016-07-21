@@ -14,7 +14,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="<?= get_stylesheet_directory_uri(); ?>/images/favicon.png" />
-	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Robotica" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:700|Robotica" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
