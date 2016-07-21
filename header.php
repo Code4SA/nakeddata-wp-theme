@@ -13,11 +13,8 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="<?= get_stylesheet_directory_uri(); ?>/images/favicon.png" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Robotica" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 

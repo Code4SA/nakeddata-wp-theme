@@ -6692,15 +6692,8 @@ button.close {
 }
 @font-face {
   font-family: 'Futura';
-  font-style: normal;
-  font-weight: 200;
+  font-weight: normal;
   src: url("fonts/Futura_ICG.ttf");
-}
-@font-face {
-  font-family: 'Futura';
-  font-style: normal;
-  font-weight: 400;
-  src: url("fonts/FuturaHeavy.ttf");
 }
 body {
   font-family: "Robotica";
@@ -6713,7 +6706,7 @@ h4,
 h5,
 h6,
 .nav > li {
-  font-family: "Futura";
+  font-family: "Alegreya Sans";
 }
 h1 a,
 h2 a,
