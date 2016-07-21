@@ -6810,3 +6810,13 @@ a:focus {
   font-family: "Alegreya Sans";
   text-transform: uppercase;
 }
+.entry-footer {
+  border-top: 1px #CCC solid;
+  font-family: "Alegreya Sans";
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.edit-link {
+  margin-top: 20px;
+  display: block;
+}
