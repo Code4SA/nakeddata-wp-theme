@@ -15,6 +15,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="<?= get_stylesheet_directory_uri(); ?>/images/favicon.png" />
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:700|Robotica" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<?php wp_head(); ?>
 </head>
 
@@ -32,6 +33,10 @@
 					<li><a href="/category/stack">#Stack</a></li>
 					<li><a href="/category/community">#Community</a></li>
 					<li><a href="/category/finally">#Finally</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right hidden-xs">
+					<li><a href="https://facebook.com/nak3ddata"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://twitter.com/NakedDataZA"><i class="fa fa-twitter"></i></a></li>
 				</ul>
 			</div>
 		</div>
