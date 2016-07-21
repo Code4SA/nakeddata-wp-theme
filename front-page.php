@@ -13,7 +13,7 @@ get_header(); ?>
 			$catquery = new WP_Query( 'category_name=top-story&posts_per_page=1' );
 			while($catquery->have_posts()) : $catquery->the_post();
 		?>
-		<div class="post first-post">
+		<div class="post first-post border-bottom">
 			<div class="post first-post"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_post_thumbnail("full", array("class"=>"img img-responsive")); ?></a></div>
 			<div><h2><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2></div>
 			<?php the_excerpt(); ?>
@@ -24,7 +24,7 @@ get_header(); ?>
 			$catquery = new WP_Query( 'category_name=top-story&posts_per_page=5&offset=1' );
 			while($catquery->have_posts()) : $catquery->the_post();
 		?>
-		<div class="post">
+		<div class="post border-bottom">
 			<div><h3><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3></div>
 			<div class="row" style="display: table">
 				<div class="col-sm-10 col-xs-12" style="display: table-cell; float: none">
