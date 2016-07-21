@@ -21,6 +21,9 @@ This theme is based on Wordpress TwentyFifteen, which is licensed under the GPL.
 	src: url("fonts/Futura_ICG.ttf");
 }
 
+@sans: "Alegreya Sans";
+@serif: "Robotica";
+
 // @font-face {
 // 	font-family: 'Futura';
 // 	font-weight: bold;
@@ -28,12 +31,12 @@ This theme is based on Wordpress TwentyFifteen, which is licensed under the GPL.
 // }
 
 body {
-	font-family: "Robotica";
+	font-family: @serif;
 	background-color: #FFF;
 }
 
 h1, h2, h3, h4, h5, h6, .nav > li {
-	font-family: "Alegreya Sans";
+	font-family: @sans;
 
 	a, a:hover, a:focus {
 		color: #444;
@@ -125,4 +128,12 @@ a:hover, a:focus {
 	.updated {
 		display: none;
 	}
+}
+
+.dateline {
+	border-bottom: @border;
+	margin-bottom: 20px;
+	color: #777;
+	font-family: @sans;
+	text-transform: uppercase;
 }

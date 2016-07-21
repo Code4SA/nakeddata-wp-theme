@@ -16,7 +16,7 @@
 		twentyfifteen_post_thumbnail();
 	?>
 
-	<header class="entry-header">
+	<div class="entry-header">
 		<?php
 			if ( is_single() ) :
 				the_title( '<h1 class="entry-title">', '</h1>' );
@@ -24,7 +24,10 @@
 				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			endif;
 		?>
-	</header><!-- .entry-header -->
+	</div><!-- .entry-header -->
+	<div class="dateline">
+		<span class="date"><?php the_date() ?></span> &#9679; <span class="author"><?php the_author(); ?></span> 
+	</div>
 
 	<div class="entry-content">
 		<?php
