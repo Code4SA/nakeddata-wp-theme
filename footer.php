@@ -15,31 +15,40 @@
 </div><!-- .site -->
 <footer>
 	<div class="container ">
-		<div class="row same-height-container">
-			<div class="col-sm-2 col-xs-12 same-height-col">
-				<a href="http://code4sa.org/"><img src="<?= get_template_directory_uri() ?>/images/c4sa-footer-logo.png" alt="Code4SA" class="img img-responsive"></a>
+		<div class="row">
+			<div class="col-sm-2">
+				<a href="http://code4sa.org/"><img src="<?= get_template_directory_uri() ?>/images/c4sa-footer-logo.png" alt="Code4SA" class="img img-responsive logo"></a>
 			</div>
-			<div class="col-sm-4 col-xs-12 border-right same-height-col">
+
+			<div class="col-sm-10">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul>
+							<li>Naked Data is a <a href="http://code4sa.org/">Code for South Africa</a> publication.</li>
+							<li>All content Copyright <a href="http://code4sa.org/">Code for South Africa</a> unless otherwise indicated.</li>
+							<li>All content is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> unless otherwise indicated.</li>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<ul>
+							<li><a href="/about">About Naked Data</a></li>
+							<li><a href="/contact">Contact Naked Data</a></li>
+							<li><a href="https://github.com/code4sa">Our Github Account</a></li>
+							<li><a href="https://data.code4sa.org/">Our Datasets</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<ul>
+							<li><a href="http://code4sa.org/">Code4SA</a></li>
+							<li><a href="http://academy.code4sa.org/">Code4SA Data Journalism Academy</a></li>
+						</ul>
+					</div>
+				</div>
+
 				<ul>
-					<li>Naked Data is a <a href="http://code4sa.org/">Code for South Africa</a> publication</li>
-					<li>All content Copyright <a href="http://code4sa.org/">Code for South Africa</a> unless otherwise indicated</li>
-					<li>All content is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> unless otherwise indicated</li>
-					<li>Code for South Africa is a non-profit organisation registered with the South African Department of Social Development, number 133-850NPO</li>
+					<li>Code for South Africa is a non-profit organisation registered with the South African Department of Social Development, number 133-850NPO.</li>
 				</ul>
-			</div>
-			<div class="col-sm-3 col-xs-12 border-right same-height-col">
-				<ul>
-					<li><a href="/about">About Naked Data</a></li>
-					<li><a href="/contact">Contact Naked Data</a></li>
-					<li><a href="https://github.com/code4sa">Our Github Account</a></li>
-					<li><a href="https://data.code4sa.org/">Our Datasets</a></li>
-				</ul>
-			</div>
-			<div class="col-sm-3 col-xs-12 same-height-col">
-				<ul>
-					<li><a href="http://code4sa.org/">Code4SA</a></li>
-					<li><a href="http://academy.code4sa.org/">Code4SA Data Journalism Academy</a></li>
-				</ul>
+
 			</div>
 		</div>
 	</div>
