@@ -6696,7 +6696,7 @@ button.close {
   src: url("fonts/Futura_ICG.ttf");
 }
 body {
-  font-family: "Robotica";
+  font-family: "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   background-color: #FFF;
 }
 h1,
