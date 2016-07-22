@@ -6747,9 +6747,13 @@ footer a:focus {
 }
 footer ul {
   padding: 0px;
+  margin-bottom: 20px;
 }
 footer ul li {
   display: block;
+}
+footer .logo {
+  margin-bottom: 20px;
 }
 a {
   color: #337ab7;
