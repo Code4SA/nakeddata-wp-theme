@@ -6835,3 +6835,14 @@ a:focus {
 .ssba-wrap {
   margin: 20px 0px;
 }
+figure {
+  max-width: 50em;
+  width: 950px;
+  color: #777;
+  font-size: 10pt;
+  margin-bottom: 20px;
+  text-align: center;
+}
+figure img {
+  max-width: 100%;
+}
