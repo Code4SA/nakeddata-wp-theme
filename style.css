@@ -6841,7 +6841,10 @@ figure {
   color: #777;
   font-size: 10pt;
   margin-bottom: 20px;
-  text-align: center;
+  font-family: "Alegreya Sans";
+}
+figure figcaption {
+  margin-top: 20px;
 }
 figure img {
   max-width: 100%;
